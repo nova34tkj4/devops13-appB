@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello semuanya, sehat selalu, ini versi terbaru');
+  res.send('Hello semuanya, ini sudah dibuild menggunakan jenkins');
 });
 
 app.listen(PORT, '0.0.0.0', () => console.log(`Server running on port ${PORT}`));
